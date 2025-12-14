@@ -87,3 +87,28 @@ Run these commands:
 git add README.md
 git commit -m "Add clear project README"
 git push
+
+
+---
+
+## 🧩 Workflow Orchestration (Kestra)
+
+GovGuide AI is designed to use a workflow-based backend powered by **Kestra**.
+
+The workflow is responsible for:
+- Accepting user queries
+- Orchestrating LLM calls
+- Returning structured guidance responses
+
+### 📸 Kestra Workflow Screenshots
+
+**Available flow configuration:**
+![Kestra Flows](./screenshots/flow.jpg)
+
+**Flow execution view:**
+![Kestra Execution](./screenshots/Logs.jpg)
+
+**Flow YML definition:**
+![Kestra YML](./screenshots/yml.jpg)
+
+> ⚠️ Note: Backend integration is currently experimental and runs locally.
